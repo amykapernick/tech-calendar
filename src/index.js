@@ -15,7 +15,7 @@ class Main extends React.Component {
 		return (
 			<Fragment>
 				<header id="header">{<Header />}</header>
-				<div id="main">{<App />}</div>
+				<div id="main" className="main">{<App />}</div>
 				<footer id="footer">{<Footer />}</footer>
 			</Fragment>
 		);
